@@ -1,56 +1,81 @@
-import React from 'react';
-import logo from './logo.svg';
-import { Counter } from './features/counter/Counter';
-import './App.css';
+import React, { useEffect } from 'react';
+import Home from './pages/Home';
+import LoginPage from './pages/LoginPage';
+import SignupPage from './pages/SignupPage';
+import {
+  createBrowserRouter,
+  RouterProvider,Route,Link
+} from "react-router-dom";
+import CartPage from './pages/CartPage'; 
+import Checkout from './pages/Checkout';
+import PagenotFound from './pages/404';
+import ProductDetailpage from './pages/ProductDetailpage';
+import Protected from './features/auth/components/Protected';
+import { useDispatch, useSelector } from 'react-redux';
+import { autoLoginAsync, selectloggedInUser } from './features/auth/authSlice';
+import { fetchItemByUserIdAsync } from './features/cart/cartSlice';
+import OrderSuccessPage from './pages/OrderSuccessPage';
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element:
+    //  <Protected>
+      <Home></Home>
+      // </Protected>
+      ,
+  },
+  {
+    path: "/login",
+    element: <LoginPage></LoginPage>,
+  },
+  {
+    path: "/signup",
+    element: <SignupPage></SignupPage>,
+  },
+  {
+    path: "/cart",
+    element: 
+    // <Protected>
+      <CartPage></CartPage>
+    // </Protected>,
+  },
+  {
+    path: "/checkout",
+    element:
+    //  <Protected>
+    <Checkout></Checkout>
+  // </Protected>,
+  },
+  {
+    path: "/product-detail/:id",
+    element: 
+    <ProductDetailpage></ProductDetailpage>
+  ,
+  },
+  {
+    path: "*",
+    element: <PagenotFound></PagenotFound>,
+  },
+  {
+    path: "/order-success/:id",
+    element: <OrderSuccessPage></OrderSuccessPage>,
+  },
+]);
 
 function App() {
+  const dispatch = useDispatch()
+  const user = useSelector(selectloggedInUser)
+
+  useEffect(()=>{
+    // dispatch(autoLoginAsync())
+    if(user){
+      dispatch(fetchItemByUserIdAsync(user.id))
+    }
+  },[dispatch,user])
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <Counter />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <span>
-          <span>Learn </span>
-          <a
-            className="App-link"
-            href="https://reactjs.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            React
-          </a>
-          <span>, </span>
-          <a
-            className="App-link"
-            href="https://redux.js.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Redux
-          </a>
-          <span>, </span>
-          <a
-            className="App-link"
-            href="https://redux-toolkit.js.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Redux Toolkit
-          </a>
-          ,<span> and </span>
-          <a
-            className="App-link"
-            href="https://react-redux.js.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            React Redux
-          </a>
-        </span>
-      </header>
+    <div className="App ">
+     <RouterProvider router={router} />
     </div>
   );
 }
