@@ -150,6 +150,7 @@ function Navbar({children}) {
       // You can implement your search logic here
     };
     const item = useSelector(selectItems)
+    console.log(item)
     return(
         <>
         <div className="bg-white">
@@ -473,8 +474,12 @@ function Navbar({children}) {
                       className="h-6 w-6 flex-shrink-0 text-gray-400 group-hover:text-gray-500"
                       aria-hidden="true"
                     />
-                    {item.length>0 &&<span className=" mb-5 text-sm font-medium text-gray-700 group-hover:text-gray-800">{item.length}</span>}
-                    <span className="sr-only">items in cart, view bag</span>
+                                        {item.length > 0 && (
+                      <span className="ml-2 inline-flex items-center rounded-full bg-indigo-600 px-2 py-1 text-xs font-medium text-white">
+                        {item.length}
+                      </span>
+                    )}
+                    <span className="sr-only">items in cart</span>
                   </Link>
                 </div>
               </div>
@@ -482,13 +487,14 @@ function Navbar({children}) {
           </div>
         </nav>
       </header>
-        <main>
-          <div className="mx-auto max-w-7xl py-6 sm:px-6 lg:px-8">{children}</div>
-        </main>
+
+      {/* Render children components */}
+      <main>
+        {children}
+      </main>
     </div>
-      
-    </>
-    )
+  </>
+);
 }
 
 export default Navbar;

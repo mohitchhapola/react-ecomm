@@ -1,0 +1,66 @@
+7d4IlzfAL17PAUid  mohitsircl
+mongodb+srv://mohitsircl:7d4IlzfAL17PAUid@cluster0.qdtvt60.mongodb.net/
+
+mongodb+srv://mohitsircl:7d4IlzfAL17PAUid@cluster0.qdtvt60.mongodb.net/
+
+
+
+const colorSchema = mongoose.Schema({
+  name: { type: String, required: true },
+  selected: { type: Boolean, required: true, default: false }
+});
+
+const sizeSchema = mongoose.Schema({
+  name: { type: String, required: true },
+  description: { type: String, required: true },
+  inStock: { type: Boolean, required: true, default: false }
+});
+
+const productSchema = new mongoose.Schema({
+  name: { type: String, required: true },
+  href: { type: String, required: true },
+  imageSrc: { type: String, required: true },
+  imageAlt: { type: String, required: true },
+  colors: [colorSchema],
+  size: [sizeSchema],
+  price : {type: Number, min:[10,'Enter Price above 10'], max:[10000,'Enter Price below 10000']},
+  rating: { type: Number, min:[0, 'wrong min rating'], max:[5, 'wrong max price'], default:0},
+  details: { type: String, required: true },
+  highlight: { type: [String], required: true }
+});
+
+auth controller
+const createUser = async(req,res)=>{
+    const userData = req.body;
+    try {
+        //validate all data
+        if(!(userData)){
+            res.status(400).send("all Field Are require")
+        }
+        //check exist user
+        const existUser = await User.findOne({email:userData.email})
+        if(existUser){
+            res.status(400).send("user already exist")
+        }
+        //bcrypt password
+        const hashPassword = await bcrypt.hash(userData.password,10)
+        //create the user
+
+        const user = new User({...userData,password:hashPassword})
+        const savedUser = await user.save();
+        res.status(200).json(savedUser)
+        
+        //genrate token
+        const token = jwt.sign(
+            {id:user._id, email:user.email},
+            'shhhh',//env 
+            {
+                expiresIn:'1d'
+            }
+        )
+        user.token = token
+    } catch (error) {
+        console.log(error)
+        res.status(400).json(error)
+    }
+}

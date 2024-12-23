@@ -1,0 +1,400 @@
+[
+  {
+    "id": 1,
+    "name": "Classic Tee",
+    "href": "#",
+    "imageSrc": "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
+    "imageAlt": "Front of men's Classic Tee in navy.",
+    "price": 12,
+    "colors": [
+      {
+        "name": "blue",
+        "selected": false
+      },
+      {
+        "name": "gray",
+        "selected": false
+      }
+    ],
+    "size": [
+      {
+        "name": "m",
+        "description": "Medium",
+        "inStock": true
+      },
+      {
+        "name": "l",
+        "description": "Large",
+        "inStock": true
+      }
+    ],
+    "rating": "4",
+    "details": "john",
+    "highlight": [
+      "softness",
+      "durability"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "V-Neck Tee",
+    "href": "#",
+    "imageSrc": "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-02.jpg",
+    "imageAlt": "Front of women's V-Neck Tee in gray.",
+    "price": 15,
+    "colors": [
+      {
+        "name": "black",
+        "selected": false
+      },
+      {
+        "name": "white",
+        "selected": false
+      }
+    ],
+    "size": [
+      {
+        "name": "s",
+        "description": "Small",
+        "inStock": true
+      },
+      {
+        "name": "xl",
+        "description": "Extra Large",
+        "inStock": true
+      }
+    ],
+    "rating": "5",
+    "details": "sara",
+    "highlight": [
+      "fit",
+      "breathability"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Long Sleeve Tee",
+    "href": "#",
+    "imageSrc": "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-04.jpg",
+    "imageAlt": "Front of men's Long Sleeve Tee in white.",
+    "price": 18,
+    "colors": [
+      {
+        "name": "navy",
+        "selected": false
+      },
+      {
+        "name": "white",
+        "selected": false
+      }
+    ],
+    "size": [
+      {
+        "name": "m",
+        "description": "Medium",
+        "inStock": true
+      },
+      {
+        "name": "l",
+        "description": "Large",
+        "inStock": true
+      }
+    ],
+    "rating": "3",
+    "details": "alex",
+    "highlight": [
+      "warmth",
+      "style"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Polo Shirt",
+    "href": "#",
+    "imageSrc": "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-05.jpg",
+    "imageAlt": "Front of men's Polo Shirt in blue.",
+    "price": 22,
+    "colors": [
+      {
+        "name": "green",
+        "selected": false
+      },
+      {
+        "name": "white",
+        "selected": false
+      }
+    ],
+    "size": [
+      {
+        "name": "s",
+        "description": "Small",
+        "inStock": true
+      },
+      {
+        "name": "xxl",
+        "description": "Extra Extra Large",
+        "inStock": true
+      }
+    ],
+    "rating": "4",
+    "details": "mike",
+    "highlight": [
+      "comfort",
+      "style"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Tank Top",
+    "href": "#",
+    "imageSrc": "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-06.jpg",
+    "imageAlt": "Front of women's Tank Top in black.",
+    "price": 8,
+    "colors": [
+      {
+        "name": "pink",
+        "selected": false
+      },
+      {
+        "name": "white",
+        "selected": false
+      }
+    ],
+    "size": [
+      {
+        "name": "m",
+        "description": "Medium",
+        "inStock": true
+      },
+      {
+        "name": "l",
+        "description": "Large",
+        "inStock": true
+      }
+    ],
+    "rating": "5",
+    "details": "emily",
+    "highlight": [
+      "coolness",
+      "style"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Hoodie",
+    "href": "#",
+    "imageSrc": "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-07.jpg",
+    "imageAlt": "Front of men's Hoodie in gray.",
+    "price": 25,
+    "colors": [
+      {
+        "name": "black",
+        "selected": false
+      },
+      {
+        "name": "white",
+        "selected": false
+      }
+    ],
+    "size": [
+      {
+        "name": "l",
+        "description": "Large",
+        "inStock": true
+      },
+      {
+        "name": "xl",
+        "description": "Extra Large",
+        "inStock": true
+      }
+    ],
+    "rating": "4",
+    "details": "david",
+    "highlight": [
+      "warmth",
+      "comfort"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Crewneck Sweatshirt",
+    "href": "#",
+    "imageSrc": "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-08.jpg",
+    "imageAlt": "Front of women's Crewneck Sweatshirt in navy.",
+    "price": 20,
+    "colors": [
+      {
+        "name": "gray",
+        "selected": false
+      },
+      {
+        "name": "white",
+        "selected": false
+      }
+    ],
+    "size": [
+      {
+        "name": "m",
+        "description": "Medium",
+        "inStock": true
+      },
+      {
+        "name": "xl",
+        "description": "Extra Large",
+        "inStock": true
+      }
+    ],
+    "rating": "5",
+    "details": "lisa",
+    "highlight": [
+      "softness",
+      "fit"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Sleeveless Tee",
+    "href": "#",
+    "imageSrc": "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-09.jpg",
+    "imageAlt": "Front of men's Sleeveless Tee in red.",
+    "price": 10,
+    "colors": [
+      {
+        "name": "black",
+        "selected": false
+      },
+      {
+        "name": "blue",
+        "selected": false
+      }
+    ],
+    "size": [
+      {
+        "name": "xs",
+        "description": "Extra Small",
+        "inStock": true
+      },
+      {
+        "name": "sm",
+        "description": "Small",
+        "inStock": true
+      }
+    ],
+    "rating": "3",
+    "details": "steve",
+    "highlight": [
+      "coolness",
+      "fit"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Graphic Tee",
+    "href": "#",
+    "imageSrc": "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-10.jpg",
+    "imageAlt": "Front of women's Graphic Tee in pink.",
+    "price": 15,
+    "colors": [
+      {
+        "name": "yellow",
+        "selected": false
+      },
+      {
+        "name": "black",
+        "selected": false
+      }
+    ],
+    "size": [
+      {
+        "name": "m",
+        "description": "Medium",
+        "inStock": true
+      },
+      {
+        "name": "l",
+        "description": "Large",
+        "inStock": true
+      }
+    ],
+    "rating": "5",
+    "details": "kate",
+    "highlight": [
+      "style",
+      "fit"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Sport Tee",
+    "href": "#",
+    "imageSrc": "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-11.jpg",
+    "imageAlt": "Front of men's Sport Tee in green.",
+    "price": 20,
+    "colors": [
+      {
+        "name": "blue",
+        "selected": false
+      },
+      {
+        "name": "white",
+        "selected": false
+      }
+    ],
+    "size": [
+      {
+        "name": "sm",
+        "description": "Small",
+        "inStock": true
+      },
+      {
+        "name": "xl",
+        "description": "Extra Large",
+        "inStock": true
+      }
+    ],
+    "rating": "4",
+    "details": "jack",
+    "highlight": [
+      "breathability",
+      "comfort"
+   
+
+ ]
+  },
+  {
+    "id": 11,
+    "name": "Raglan Tee",
+    "href": "#",
+    "imageSrc": "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-12.jpg",
+    "imageAlt": "Front of women's Raglan Tee in gray and black.",
+    "price": 18,
+    "colors": [
+      {
+        "name": "red",
+        "selected": false
+      },
+      {
+        "name": "gray",
+        "selected": false
+      }
+    ],
+    "size": [
+      {
+        "name": "m",
+        "description": "Medium",
+        "inStock": true
+      },
+      {
+        "name": "l",
+        "description": "Large",
+        "inStock": true
+      }
+    ],
+    "rating": "3",
+    "details": "jane",
+    "highlight": [
+      "style",
+      "fit"
+    ]
+  }
+]

@@ -11,7 +11,7 @@ export default function UserProfile() {
   const [selectedEditIndex, setSelectedEditIndex] = useState(-1);
   const [showAddAddressForm, setShowAddAddressForm] = useState(false);
 
-  console.log(user)
+  console.log(user.user.address)
   // console.log(loggeduser.id)
 
   //TODO: We will add payment section when we work on backend.
@@ -284,7 +284,7 @@ export default function UserProfile() {
               ) : null}
 
           <p className="mt-0.5 text-sm text-gray-500">Your Addresses :</p>
-          {user.addresses.map((address, index) => (
+          {user.user.address.map((address, index) => (
             <div>
               {selectedEditIndex === index ? (
                 <form

@@ -15,6 +15,8 @@ import {
   StarIcon
 } from "@heroicons/react/20/solid";
 import { Link } from "react-router-dom";
+import { fetchItemByUserIdAsync } from "../../cart/cartSlice";
+import { selectloggedInUser } from "../../auth/authSlice";
 
 const sortOptions = [
   { name: "Best Rating", sort: "rating", order:'desc', current: false },
@@ -66,6 +68,7 @@ export default function ProductList() {
   const dispatch = useDispatch();
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
   const [filter,setFilter] = useState({})
+  const user = useSelector(selectloggedInUser);
 
   const handleFilters = (e,section,option) => {
   const newFilter = ({...filter,[section.id]:option.value})
@@ -82,11 +85,12 @@ export default function ProductList() {
 
   useEffect(() => {
     return () => {
+
       dispatch(fetchAllProductsAsync());
     };
   }, [dispatch]);
 
-  console.log("productlist", products);
+  // console.log("productlist", products);
   return (
     <>
       <div className="bg-white">

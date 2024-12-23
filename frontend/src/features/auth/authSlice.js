@@ -2,6 +2,7 @@ import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 import { createUser,checkUser, updateUser, Signout } from './authAPI';
 
 const initialState = {
+
   loggedInUser: null,
   status: 'idle',
   error: null,
@@ -40,8 +41,9 @@ export const checkUserAsync = createAsyncThunk(
 );
 export const logoutUserAsync = createAsyncThunk(
   'user/logoutUser',
-  async (loginInfo) => {
-    const response = await Signout(loginInfo);
+  async () => {
+    const response = await Signout();
+    localStorage.removeItem('user');
     // The value we return becomes the `fulfilled` action payload
     return response.data;
   }

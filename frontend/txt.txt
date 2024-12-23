@@ -1,0 +1,6908 @@
+/* Homepage 01 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+
+position: relative;
+width: 1440px;
+height: 3650px;
+
+
+
+/* Notification Bar */
+
+width: 1440px;
+height: 40px;
+
+/* Neutral/02/100% */
+background: #F3F5F7;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Content */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+position: absolute;
+width: 372px;
+height: 24px;
+left: calc(50% - 372px/2 - 10px);
+top: calc(50% - 24px/2);
+
+
+
+/* Text+Icon */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 12px;
+
+width: 269px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* ticket-percent */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 12.5%;
+bottom: 12.5%;
+
+/* Neutral/07/100% */
+border: 1.5px solid #141718;
+
+
+/* 30% off storewide — Limited time! */
+
+width: 233px;
+height: 22px;
+
+/* Caption 1 (Semi) */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 22px;
+/* identical to box height, or 157% */
+text-align: center;
+
+color: #343839;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Button */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+width: 91px;
+height: 24px;
+
+/* Blue */
+border-bottom: 1px solid #377DFF;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Content */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 4px;
+
+width: 91px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Get started */
+
+width: 69px;
+height: 24px;
+
+/* Button XS */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+
+/* Blue */
+color: #377DFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icon/arrow-right */
+
+width: 18px;
+height: 18px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 20.83%;
+right: 20.83%;
+top: 50%;
+bottom: 50%;
+
+/* Blue */
+background: #377DFF;
+/* Blue */
+border: 1.125px solid #377DFF;
+
+
+/* Vector */
+
+position: absolute;
+left: 54.17%;
+right: 20.83%;
+top: 50%;
+bottom: 25%;
+
+/* Blue */
+background: #377DFF;
+/* Blue */
+border: 1.125px solid #377DFF;
+
+
+/* Vector */
+
+position: absolute;
+left: 54.17%;
+right: 20.83%;
+top: 25%;
+bottom: 50%;
+
+/* Blue */
+background: #377DFF;
+/* Blue */
+border: 1.125px solid #377DFF;
+
+
+/* Icon/close */
+
+position: absolute;
+width: 20px;
+height: 20px;
+right: 16px;
+top: calc(50% - 20px/2);
+
+
+
+/* Union */
+
+position: absolute;
+width: 11.25px;
+height: 11.25px;
+left: 4.38px;
+top: 4.38px;
+
+/* Neutral/05/100% */
+background: #343839;
+
+
+/* Path */
+
+position: absolute;
+left: 25%;
+right: 25%;
+top: 25%;
+bottom: 25%;
+
+/* Black/900 */
+border: 1.25px solid #121212;
+
+
+/* Path */
+
+position: absolute;
+left: 25%;
+right: 25%;
+top: 25%;
+bottom: 25%;
+
+/* Black/900 */
+border: 1.25px solid #121212;
+
+
+/* Navigation Bar */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 16px 160px;
+gap: 241px;
+
+width: 1440px;
+height: 60px;
+
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Logo */
+
+margin: 0 auto;
+width: 105px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* 3legant. */
+
+position: absolute;
+width: 105px;
+height: 24px;
+left: 0px;
+top: 0px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 24px;
+/* identical to box height, or 100% */
+text-align: center;
+
+color: #000000;
+
+
+
+/* Elements/Navigation/Link Group  */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 40px;
+
+margin: 0 auto;
+width: 324px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Elements/Navigation/Link  */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+width: 38px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Button */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+width: 38px;
+height: 24px;
+
+/* Neutral/07/100% */
+border: 0px solid #141718;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Content */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 4px;
+
+width: 38px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icon/arrow-right */
+
+display: none;
+width: 18px;
+height: 18px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Get started */
+
+width: 38px;
+height: 24px;
+
+/* Button/XSmall */
+font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+
+/* Neutral/07/100% */
+color: #141718;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Elements/Navigation/Link  */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+width: 35px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Button */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+width: 35px;
+height: 24px;
+
+/* Neutral/04/100% */
+border: 0px solid #6C7275;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Content */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 4px;
+
+width: 35px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icon/arrow-right */
+
+display: none;
+width: 18px;
+height: 18px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Get started */
+
+width: 35px;
+height: 24px;
+
+/* Button/XSmall */
+font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+
+/* Neutral/04/100% */
+color: #6C7275;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Icon/chevron-down */
+
+display: none;
+width: 18px;
+height: 18px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Elements/Navigation/Link  */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+width: 55px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Button */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+width: 55px;
+height: 24px;
+
+/* Neutral/04/100% */
+border: 0px solid #6C7275;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Content */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 4px;
+
+width: 55px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icon/arrow-right */
+
+display: none;
+width: 18px;
+height: 18px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Get started */
+
+width: 55px;
+height: 24px;
+
+/* Button/XSmall */
+font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+
+/* Neutral/04/100% */
+color: #6C7275;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Icon/chevron-down */
+
+display: none;
+width: 18px;
+height: 18px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Elements/Navigation/Link  */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+width: 76px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Button */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+width: 76px;
+height: 24px;
+
+/* Neutral/04/100% */
+border: 0px solid #6C7275;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Content */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 4px;
+
+width: 76px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Contact */
+
+width: 76px;
+height: 24px;
+
+/* Button/XSmall */
+font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+
+/* Neutral/04/100% */
+color: #6C7275;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icons */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+margin: 0 auto;
+width: 105px;
+height: 28px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* interface/outline/search 02 */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+/* Neutral/07/100% */
+border: 1.5px solid #141718;
+
+
+/* Elements/Navigation/Cart Button */
+
+width: 25px;
+height: 28px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 3 */
+
+position: absolute;
+width: 10.58px;
+height: 10.58px;
+left: 15px;
+top: -3px;
+
+
+
+/* Ellipse 1 */
+
+position: absolute;
+width: 10.58px;
+height: 10.58px;
+right: 0px;
+top: calc(50% - 10.58px/2);
+
+/* Neutral/07/100% */
+background: #141718;
+
+
+/* 2 */
+
+position: absolute;
+width: 4px;
+height: 6px;
+right: 3.41px;
+top: calc(50% - 6px/2 + 0.36px);
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 6.34746px;
+line-height: 5px;
+/* identical to box height, or 83% */
+text-align: center;
+
+/* White */
+color: #FFFFFF;
+
+
+
+/* outline/shopping bag */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 1px;
+top: 2px;
+
+
+
+/* Rectangle 773 */
+
+position: absolute;
+left: 37.5%;
+right: 37.5%;
+top: 25%;
+bottom: 58.33%;
+
+/* Neutral/07/100% */
+border: 1.5px solid #141718;
+
+
+/* Rectangle 772 */
+
+position: absolute;
+left: 11.34%;
+right: 11.34%;
+top: 12.5%;
+bottom: 12.5%;
+
+/* Neutral/07/100% */
+border: 1.5px solid #141718;
+border-radius: 4px;
+
+
+/* interface/outline/user-circle */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+/* Neutral/07/100% */
+border: 1.5px solid #141718;
+
+
+/* Slider Section */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px 160px 40px;
+gap: 32px;
+
+width: 1440px;
+height: 760px;
+
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Slider */
+
+width: 1120px;
+height: 536px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Image Placeholder */
+
+position: absolute;
+width: 1120px;
+height: 536px;
+left: calc(50% - 1120px/2);
+top: 0px;
+
+
+
+/* Paste image */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: linear-gradient(180deg, rgba(52, 56, 57, 0) 83.21%, rgba(52, 56, 57, 0.4) 100%), url(pexels-leah-kelley-6480707.jpg);
+
+
+/* Navigation Dots */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+position: absolute;
+width: 78px;
+height: 8px;
+left: calc(50% - 78px/2);
+top: 496px;
+
+
+
+/* Elements/Navigation Dots */
+
+width: 30px;
+height: 8px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Shape */
+
+position: absolute;
+width: 30px;
+height: 8px;
+left: 0px;
+top: 0px;
+
+/* Neutral/01/100% */
+background: #FEFEFE;
+border-radius: 100px;
+
+
+/* Elements/Navigation Dots */
+
+width: 8px;
+height: 8px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Shape */
+
+position: absolute;
+width: 8px;
+height: 8px;
+left: calc(50% - 8px/2);
+top: calc(50% - 8px/2);
+
+/* Neutral/01/100% */
+background: #FEFEFE;
+
+
+/* Elements/Navigation Dots */
+
+width: 8px;
+height: 8px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Shape */
+
+position: absolute;
+width: 8px;
+height: 8px;
+left: calc(50% - 8px/2);
+top: calc(50% - 8px/2);
+
+/* Neutral/01/100% */
+background: #FEFEFE;
+
+
+/* Navigation */
+
+position: absolute;
+width: 1055px;
+height: 52px;
+left: calc(50% - 1055px/2 - 0.5px);
+top: 243px;
+
+
+
+/* Button */
+
+position: absolute;
+left: 95.07%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* White */
+background: #FFFFFF;
+/* Shadow/01 */
+box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.0364401);
+border-radius: 100px;
+
+
+/* Icon/arrow-right */
+
+position: absolute;
+width: 32px;
+height: 32px;
+left: calc(50% - 32px/2);
+top: calc(50% - 32px/2);
+
+
+
+/* Vector */
+
+position: absolute;
+left: 20.83%;
+right: 20.83%;
+top: 50%;
+bottom: 50%;
+
+/* Neutral/07/100% */
+border: 2px solid #141718;
+
+
+/* Vector */
+
+position: absolute;
+left: 54.17%;
+right: 20.83%;
+top: 50%;
+bottom: 25%;
+
+/* Neutral/07/100% */
+border: 2px solid #141718;
+
+
+/* Vector */
+
+position: absolute;
+left: 54.17%;
+right: 20.83%;
+top: 25%;
+bottom: 50%;
+
+/* Neutral/07/100% */
+border: 2px solid #141718;
+
+
+/* Button */
+
+position: absolute;
+width: 52px;
+height: 52px;
+left: 0px;
+top: calc(50% - 52px/2);
+
+/* White */
+background: #FFFFFF;
+/* Shadow/01 */
+box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.0364401);
+border-radius: 100px;
+
+
+/* Icon/arrow-left */
+
+position: absolute;
+width: 32px;
+height: 32px;
+left: calc(50% - 32px/2);
+top: calc(50% - 32px/2);
+
+
+
+/* Vector */
+
+position: absolute;
+left: 20.83%;
+right: 20.83%;
+top: 50%;
+bottom: 50%;
+
+/* Neutral/04/100% */
+border: 2px solid #6C7275;
+
+
+/* Vector */
+
+position: absolute;
+left: 20.83%;
+right: 54.17%;
+top: 50%;
+bottom: 25%;
+
+/* Neutral/04/100% */
+border: 2px solid #6C7275;
+
+
+/* Vector */
+
+position: absolute;
+left: 20.83%;
+right: 54.17%;
+top: 25%;
+bottom: 50%;
+
+/* Neutral/04/100% */
+border: 2px solid #6C7275;
+
+
+/* Header */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 24px;
+
+width: 1120px;
+height: 152px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Simply Unique/ Simply Better. */
+
+width: 643px;
+height: 152px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 72px;
+line-height: 76px;
+/* or 106% */
+letter-spacing: -2px;
+
+/* Neutral/07/100% */
+color: #141718;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Text+Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 453px;
+height: 52px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* 3legant is a gift & decorations store based in HCMC, Vietnam. Est since 2019. */
+
+width: 424px;
+height: 52px;
+
+/* Body 2 (Semi) */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+
+/* Neutral/05/100% */
+color: #343839;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Banner Grid */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 0px 160px;
+gap: 24px;
+
+width: 1440px;
+height: 664px;
+
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Elements/Card */
+
+width: 548px;
+height: 664px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Image Placeholder */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+
+
+/* Paste image */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: url(860), #F3F5F7;
+background-blend-mode: multiply, normal;
+
+
+/* Content */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+position: absolute;
+width: 360px;
+height: 78px;
+left: 48px;
+top: 48px;
+
+
+
+/* Title */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 360px;
+height: 38px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Product name */
+
+width: 360px;
+height: 38px;
+
+/* Headline 5 */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 34px;
+line-height: 38px;
+/* identical to box height, or 112% */
+letter-spacing: -0.6px;
+
+/* Neutral/07/100% */
+color: #141718;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Phosfluorescently en */
+
+display: none;
+width: 360px;
+height: 52px;
+
+/* Text/16px/Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+
+/* Text Blue */
+color: #3E3E59;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Button */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 4px;
+
+width: 100px;
+height: 28px;
+
+/* Neutral/07/100% */
+border-bottom: 1px solid #141718;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Content */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 4px;
+
+width: 76px;
+height: 28px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Get started */
+
+width: 76px;
+height: 28px;
+
+/* Button S */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 28px;
+/* identical to box height, or 175% */
+letter-spacing: -0.4px;
+
+/* Neutral/07/100% */
+color: #141718;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icon/arrow-right */
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 20.83%;
+right: 20.83%;
+top: 50%;
+bottom: 50%;
+
+/* Neutral/07/100% */
+border: 1.25px solid #141718;
+
+
+/* Vector */
+
+position: absolute;
+left: 54.17%;
+right: 20.83%;
+top: 50%;
+bottom: 25%;
+
+/* Neutral/07/100% */
+border: 1.25px solid #141718;
+
+
+/* Vector */
+
+position: absolute;
+left: 54.17%;
+right: 20.83%;
+top: 25%;
+bottom: 50%;
+
+/* Neutral/07/100% */
+border: 1.25px solid #141718;
+
+
+/* Small Cards */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 548px;
+height: 662px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Elements/Card */
+
+width: 548px;
+height: 319px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Image Placeholder */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+
+
+/* Paste image */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: url(6528420a4a039), #F3F5F7;
+background-blend-mode: multiply, normal;
+
+
+/* Content */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+position: absolute;
+width: 420px;
+height: 78px;
+left: 32px;
+bottom: 40px;
+
+
+
+/* Bedroom */
+
+width: 516px;
+height: 38px;
+
+/* Headline 5 */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 34px;
+line-height: 38px;
+/* identical to box height, or 112% */
+letter-spacing: -0.6px;
+
+/* Neutral/07/100% */
+color: #141718;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Button */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 4px;
+
+width: 100px;
+height: 28px;
+
+/* Neutral/07/100% */
+border-bottom: 1px solid #141718;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Content */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 4px;
+
+width: 76px;
+height: 28px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Get started */
+
+width: 76px;
+height: 28px;
+
+/* Button S */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 28px;
+/* identical to box height, or 175% */
+letter-spacing: -0.4px;
+
+/* Neutral/07/100% */
+color: #141718;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icon/arrow-right */
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 20.83%;
+right: 20.83%;
+top: 50%;
+bottom: 50%;
+
+/* Neutral/07/100% */
+border: 1.25px solid #141718;
+
+
+/* Vector */
+
+position: absolute;
+left: 54.17%;
+right: 20.83%;
+top: 50%;
+bottom: 25%;
+
+/* Neutral/07/100% */
+border: 1.25px solid #141718;
+
+
+/* Vector */
+
+position: absolute;
+left: 54.17%;
+right: 20.83%;
+top: 25%;
+bottom: 50%;
+
+/* Neutral/07/100% */
+border: 1.25px solid #141718;
+
+
+/* Elements/Card */
+
+width: 548px;
+height: 319px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Image Placeholder */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+
+
+/* Paste image */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: url(65284490946c3), #F3F5F7;
+background-blend-mode: multiply, normal;
+
+
+/* Content */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+position: absolute;
+width: 420px;
+height: 78px;
+left: 32px;
+bottom: 40px;
+
+
+
+/* Kitchen */
+
+width: 516px;
+height: 38px;
+
+/* Headline 5 */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 34px;
+line-height: 38px;
+/* identical to box height, or 112% */
+letter-spacing: -0.6px;
+
+/* Neutral/07/100% */
+color: #141718;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Button */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 4px;
+
+width: 100px;
+height: 28px;
+
+/* Neutral/07/100% */
+border-bottom: 1px solid #141718;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Content */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 4px;
+
+width: 76px;
+height: 28px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Get started */
+
+width: 76px;
+height: 28px;
+
+/* Button S */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 28px;
+/* identical to box height, or 175% */
+letter-spacing: -0.4px;
+
+/* Neutral/07/100% */
+color: #141718;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icon/arrow-right */
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 20.83%;
+right: 20.83%;
+top: 50%;
+bottom: 50%;
+
+/* Neutral/07/100% */
+border: 1.25px solid #141718;
+
+
+/* Vector */
+
+position: absolute;
+left: 54.17%;
+right: 20.83%;
+top: 50%;
+bottom: 25%;
+
+/* Neutral/07/100% */
+border: 1.25px solid #141718;
+
+
+/* Vector */
+
+position: absolute;
+left: 54.17%;
+right: 20.83%;
+top: 25%;
+bottom: 50%;
+
+/* Neutral/07/100% */
+border: 1.25px solid #141718;
+
+
+/* Product Carousel */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 48px 0px 0px 160px;
+gap: 48px;
+
+width: 1440px;
+height: 669px;
+
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* Title */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-end;
+padding: 0px;
+gap: 48px;
+
+width: 1120px;
+height: 88px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* New Arrivals */
+
+margin: 0 auto;
+width: 149px;
+height: 88px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 44px;
+/* or 110% */
+letter-spacing: -0.4px;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Button */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 4px;
+
+margin: 0 auto;
+width: 132px;
+height: 28px;
+
+/* Neutral/07/100% */
+border-bottom: 1px solid #141718;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Content */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 4px;
+
+width: 108px;
+height: 28px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Get started */
+
+width: 108px;
+height: 28px;
+
+/* Button S */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 28px;
+/* identical to box height, or 175% */
+letter-spacing: -0.4px;
+
+/* Neutral/07/100% */
+color: #141718;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icon/arrow-right */
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 20.83%;
+right: 20.83%;
+top: 50%;
+bottom: 50%;
+
+/* Neutral/07/100% */
+border: 1.25px solid #141718;
+
+
+/* Vector */
+
+position: absolute;
+left: 54.17%;
+right: 20.83%;
+top: 50%;
+bottom: 25%;
+
+/* Neutral/07/100% */
+border: 1.25px solid #141718;
+
+
+/* Vector */
+
+position: absolute;
+left: 54.17%;
+right: 20.83%;
+top: 25%;
+bottom: 50%;
+
+/* Neutral/07/100% */
+border: 1.25px solid #141718;
+
+
+/* product card */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 1280px;
+height: 433px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Product Card */
+
+width: 262px;
+height: 433px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Elements/ Card */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 19.4%;
+
+
+
+/* Image Placeholder */
+
+position: absolute;
+width: 262px;
+height: 349px;
+left: 0px;
+top: 0px;
+
+
+
+/* Paste image */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: url(114), #F3F5F7;
+background-blend-mode: multiply, normal;
+
+
+/* Button hover */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 24px;
+gap: 4px;
+
+position: absolute;
+left: 6.11%;
+right: 6.11%;
+top: 82.23%;
+bottom: 4.58%;
+
+/* Neutral/07/100% */
+background: #141718;
+/* Shadow/01 */
+box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.0364401);
+border-radius: 8px;
+
+
+/* Get started */
+
+width: 82px;
+height: 28px;
+
+/* Button S */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 28px;
+/* identical to box height, or 175% */
+text-align: center;
+letter-spacing: -0.4px;
+
+/* Neutral/01/100% */
+color: #FEFEFE;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* add to ❤️ wishlist */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 6px;
+gap: 10px;
+
+position: absolute;
+width: 32px;
+height: 32px;
+right: 16px;
+top: 16px;
+
+background: #FFFFFF;
+box-shadow: 0px 8px 16px -8px rgba(15, 15, 15, 0.12);
+border-radius: 32px;
+
+
+/* icons/Heart/Line */
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Shape */
+
+position: absolute;
+left: 4.17%;
+right: 4.17%;
+top: 12.5%;
+bottom: 13.37%;
+
+/* Neutral/04/100% */
+background: #6C7275;
+
+
+/* Badges */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 71px;
+height: 56px;
+left: 16px;
+top: 16px;
+
+
+
+/* Badge medium */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 4px 14px;
+gap: 8px;
+
+width: 67px;
+height: 24px;
+
+background: #FFFFFF;
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* New */
+
+width: 39px;
+height: 16px;
+
+/* Hairline 1 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 16px;
+/* identical to box height, or 100% */
+text-align: center;
+text-transform: uppercase;
+
+/* Neutral/07/100% */
+color: #141718;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Badge medium */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 4px 14px;
+gap: 8px;
+
+width: 71px;
+height: 24px;
+
+background: #38CB89;
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* New */
+
+width: 43px;
+height: 16px;
+
+/* Hairline 1 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 16px;
+/* identical to box height, or 100% */
+text-align: center;
+text-transform: uppercase;
+
+/* Neutral/01/100% */
+color: #FEFEFE;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Content */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 83.37%;
+bottom: 0%;
+
+
+
+/* Content */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 262px;
+height: 72px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text+Price */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+width: 262px;
+height: 72px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Rating/Rating Group */
+
+width: 88px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Star Icon */
+
+position: absolute;
+left: 81.82%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Rating/Star Fill */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Neutral/05/100% */
+background: #343839;
+border-radius: 0.5px;
+
+
+/* Star Icon */
+
+position: absolute;
+left: 61.36%;
+right: 20.45%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Rating/Star Fill */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Neutral/05/100% */
+background: #343839;
+border-radius: 0.5px;
+
+
+/* Star Icon */
+
+position: absolute;
+left: 40.91%;
+right: 40.91%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Rating/Star Fill */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Neutral/05/100% */
+background: #343839;
+border-radius: 0.5px;
+
+
+/* Star Icon */
+
+position: absolute;
+left: 20.45%;
+right: 61.36%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Rating/Star Fill */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Neutral/05/100% */
+background: #343839;
+border-radius: 0.5px;
+
+
+/* Star Icon */
+
+position: absolute;
+left: 0%;
+right: 81.82%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Rating/Star Fill */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Neutral/05/100% */
+background: #343839;
+border-radius: 0.5px;
+
+
+/* Loveseat Sofa */
+
+width: 262px;
+height: 26px;
+
+/* Body 2 (Semi) */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+/* Neutral/07/100% */
+color: #141718;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Price */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 125px;
+height: 22px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* $199.00 */
+
+width: 56px;
+height: 22px;
+
+/* Caption 1 (Semi) */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 22px;
+/* identical to box height, or 157% */
+
+/* Neutral/07/100% */
+color: #141718;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* $400.00 */
+
+width: 57px;
+height: 22px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+/* identical to box height, or 157% */
+text-decoration-line: line-through;
+
+/* Neutral/04/100% */
+color: #6C7275;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Product Card */
+
+width: 262px;
+height: 433px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Elements/ Card */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 19.4%;
+
+
+
+/* Image Placeholder */
+
+position: absolute;
+width: 262px;
+height: 349px;
+left: 0px;
+top: 0px;
+
+
+
+/* Paste image */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: url(lamp), #F3F5F7;
+background-blend-mode: multiply, normal;
+
+
+/* Button hover */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 24px;
+gap: 4px;
+
+position: absolute;
+visibility: hidden;
+left: 6.11%;
+right: 6.11%;
+top: 82.23%;
+bottom: 4.58%;
+
+/* Neutral/07/100% */
+background: #141718;
+border-radius: 8px;
+
+
+/* Get started */
+
+width: 82px;
+height: 28px;
+
+/* Button S */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 28px;
+/* identical to box height, or 175% */
+text-align: center;
+letter-spacing: -0.4px;
+
+/* Neutral/01/100% */
+color: #FEFEFE;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* add to ❤️ wishlist */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 6px;
+gap: 10px;
+
+position: absolute;
+visibility: hidden;
+width: 32px;
+height: 32px;
+right: 16px;
+top: 16px;
+
+background: #FFFFFF;
+border-radius: 32px;
+
+
+/* icons/Heart/Line */
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Shape */
+
+position: absolute;
+left: 4.17%;
+right: 4.17%;
+top: 12.5%;
+bottom: 13.37%;
+
+/* Neutral/04/100% */
+background: #6C7275;
+
+
+/* Badges */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 71px;
+height: 56px;
+left: 16px;
+top: 16px;
+
+
+
+/* Badge medium */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 4px 14px;
+gap: 8px;
+
+width: 67px;
+height: 24px;
+
+background: #FFFFFF;
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* New */
+
+width: 39px;
+height: 16px;
+
+/* Hairline 1 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 16px;
+/* identical to box height, or 100% */
+text-align: center;
+text-transform: uppercase;
+
+/* Neutral/07/100% */
+color: #141718;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Badge medium */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 4px 14px;
+gap: 8px;
+
+width: 71px;
+height: 24px;
+
+background: #38CB89;
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* New */
+
+width: 43px;
+height: 16px;
+
+/* Hairline 1 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 16px;
+/* identical to box height, or 100% */
+text-align: center;
+text-transform: uppercase;
+
+/* Neutral/01/100% */
+color: #FEFEFE;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Content */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+position: absolute;
+width: 262px;
+height: 72px;
+left: 0px;
+top: 361px;
+
+
+
+/* Text+Price */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+width: 262px;
+height: 72px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Rating/Rating Group */
+
+width: 88px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Star Icon */
+
+position: absolute;
+left: 81.82%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Rating/Star Fill */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Neutral/05/100% */
+background: #343839;
+border-radius: 0.5px;
+
+
+/* Star Icon */
+
+position: absolute;
+left: 61.36%;
+right: 20.45%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Rating/Star Fill */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Neutral/05/100% */
+background: #343839;
+border-radius: 0.5px;
+
+
+/* Star Icon */
+
+position: absolute;
+left: 40.91%;
+right: 40.91%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Rating/Star Fill */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Neutral/05/100% */
+background: #343839;
+border-radius: 0.5px;
+
+
+/* Star Icon */
+
+position: absolute;
+left: 20.45%;
+right: 61.36%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Rating/Star Fill */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Neutral/05/100% */
+background: #343839;
+border-radius: 0.5px;
+
+
+/* Star Icon */
+
+position: absolute;
+left: 0%;
+right: 81.82%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Rating/Star Fill */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Neutral/05/100% */
+background: #343839;
+border-radius: 0.5px;
+
+
+/* Loveseat Sofa */
+
+width: 262px;
+height: 26px;
+
+/* Body 2 (Semi) */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+/* Neutral/07/100% */
+color: #141718;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Price */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 49px;
+height: 22px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* $199.00 */
+
+width: 49px;
+height: 22px;
+
+/* Caption 1 (Semi) */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 22px;
+/* identical to box height, or 157% */
+
+/* Neutral/07/100% */
+color: #141718;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* $400.00 */
+
+display: none;
+width: 57px;
+height: 22px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+/* identical to box height, or 157% */
+text-decoration-line: line-through;
+
+/* Neutral/04/100% */
+color: #6C7275;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Product Card */
+
+width: 262px;
+height: 433px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Elements/ Card */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 19.4%;
+
+
+
+/* Image Placeholder */
+
+position: absolute;
+width: 262px;
+height: 349px;
+left: 0px;
+top: 0px;
+
+
+
+/* Paste image */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: url(lAMPP2), #F3F5F7;
+background-blend-mode: multiply, normal;
+
+
+/* Button hover */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 24px;
+gap: 4px;
+
+position: absolute;
+visibility: hidden;
+left: 6.11%;
+right: 6.11%;
+top: 82.23%;
+bottom: 4.58%;
+
+/* Neutral/07/100% */
+background: #141718;
+border-radius: 8px;
+
+
+/* Get started */
+
+width: 82px;
+height: 28px;
+
+/* Button S */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 28px;
+/* identical to box height, or 175% */
+text-align: center;
+letter-spacing: -0.4px;
+
+/* Neutral/01/100% */
+color: #FEFEFE;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* add to ❤️ wishlist */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 6px;
+gap: 10px;
+
+position: absolute;
+visibility: hidden;
+width: 32px;
+height: 32px;
+right: 16px;
+top: 16px;
+
+background: #FFFFFF;
+border-radius: 32px;
+
+
+/* icons/Heart/Line */
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Shape */
+
+position: absolute;
+left: 4.17%;
+right: 4.17%;
+top: 12.5%;
+bottom: 13.37%;
+
+/* Neutral/04/100% */
+background: #6C7275;
+
+
+/* Badges */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 71px;
+height: 56px;
+left: 16px;
+top: 16px;
+
+
+
+/* Badge medium */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 4px 14px;
+gap: 8px;
+
+width: 67px;
+height: 24px;
+
+background: #FFFFFF;
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* New */
+
+width: 39px;
+height: 16px;
+
+/* Hairline 1 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 16px;
+/* identical to box height, or 100% */
+text-align: center;
+text-transform: uppercase;
+
+/* Neutral/07/100% */
+color: #141718;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Badge medium */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 4px 14px;
+gap: 8px;
+
+width: 71px;
+height: 24px;
+
+background: #38CB89;
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* New */
+
+width: 43px;
+height: 16px;
+
+/* Hairline 1 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 16px;
+/* identical to box height, or 100% */
+text-align: center;
+text-transform: uppercase;
+
+/* Neutral/01/100% */
+color: #FEFEFE;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Content */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+position: absolute;
+width: 262px;
+height: 72px;
+left: 0px;
+top: 361px;
+
+
+
+/* Text+Price */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+width: 262px;
+height: 72px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Rating/Rating Group */
+
+width: 88px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Star Icon */
+
+position: absolute;
+left: 81.82%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Rating/Star Fill */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Neutral/05/100% */
+background: #343839;
+border-radius: 0.5px;
+
+
+/* Star Icon */
+
+position: absolute;
+left: 61.36%;
+right: 20.45%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Rating/Star Fill */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Neutral/05/100% */
+background: #343839;
+border-radius: 0.5px;
+
+
+/* Star Icon */
+
+position: absolute;
+left: 40.91%;
+right: 40.91%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Rating/Star Fill */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Neutral/05/100% */
+background: #343839;
+border-radius: 0.5px;
+
+
+/* Star Icon */
+
+position: absolute;
+left: 20.45%;
+right: 61.36%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Rating/Star Fill */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Neutral/05/100% */
+background: #343839;
+border-radius: 0.5px;
+
+
+/* Star Icon */
+
+position: absolute;
+left: 0%;
+right: 81.82%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Rating/Star Fill */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Neutral/05/100% */
+background: #343839;
+border-radius: 0.5px;
+
+
+/* Loveseat Sofa */
+
+width: 262px;
+height: 26px;
+
+/* Body 2 (Semi) */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+/* Neutral/07/100% */
+color: #141718;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Price */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 49px;
+height: 22px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* $199.00 */
+
+width: 49px;
+height: 22px;
+
+/* Caption 1 (Semi) */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 22px;
+/* identical to box height, or 157% */
+
+/* Neutral/07/100% */
+color: #141718;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* $400.00 */
+
+display: none;
+width: 57px;
+height: 22px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+/* identical to box height, or 157% */
+text-decoration-line: line-through;
+
+/* Neutral/04/100% */
+color: #6C7275;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Product Card */
+
+width: 262px;
+height: 433px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Elements/ Card */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 19.4%;
+
+
+
+/* Image Placeholder */
+
+position: absolute;
+width: 262px;
+height: 349px;
+left: 0px;
+top: 0px;
+
+
+
+/* Paste image */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: url(backet), #F3F5F7;
+background-blend-mode: multiply, normal;
+
+
+/* Button hover */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 24px;
+gap: 4px;
+
+position: absolute;
+visibility: hidden;
+left: 6.11%;
+right: 6.11%;
+top: 82.23%;
+bottom: 4.58%;
+
+/* Neutral/07/100% */
+background: #141718;
+border-radius: 8px;
+
+
+/* Get started */
+
+width: 82px;
+height: 28px;
+
+/* Button S */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 28px;
+/* identical to box height, or 175% */
+text-align: center;
+letter-spacing: -0.4px;
+
+/* Neutral/01/100% */
+color: #FEFEFE;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* add to ❤️ wishlist */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 6px;
+gap: 10px;
+
+position: absolute;
+visibility: hidden;
+width: 32px;
+height: 32px;
+right: 16px;
+top: 16px;
+
+background: #FFFFFF;
+border-radius: 32px;
+
+
+/* icons/Heart/Line */
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Shape */
+
+position: absolute;
+left: 4.17%;
+right: 4.17%;
+top: 12.5%;
+bottom: 13.37%;
+
+/* Neutral/04/100% */
+background: #6C7275;
+
+
+/* Badges */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 71px;
+height: 56px;
+left: 16px;
+top: 16px;
+
+
+
+/* Badge medium */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 4px 14px;
+gap: 8px;
+
+width: 67px;
+height: 24px;
+
+background: #FFFFFF;
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* New */
+
+width: 39px;
+height: 16px;
+
+/* Hairline 1 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 16px;
+/* identical to box height, or 100% */
+text-align: center;
+text-transform: uppercase;
+
+/* Neutral/07/100% */
+color: #141718;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Badge medium */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 4px 14px;
+gap: 8px;
+
+width: 71px;
+height: 24px;
+
+background: #38CB89;
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* New */
+
+width: 43px;
+height: 16px;
+
+/* Hairline 1 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 16px;
+/* identical to box height, or 100% */
+text-align: center;
+text-transform: uppercase;
+
+/* Neutral/01/100% */
+color: #FEFEFE;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Content */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+position: absolute;
+width: 262px;
+height: 72px;
+left: 0px;
+top: 361px;
+
+
+
+/* Text+Price */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+width: 262px;
+height: 72px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Rating/Rating Group */
+
+width: 88px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Star Icon */
+
+position: absolute;
+left: 81.82%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Rating/Star Fill */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Neutral/05/100% */
+background: #343839;
+border-radius: 0.5px;
+
+
+/* Star Icon */
+
+position: absolute;
+left: 61.36%;
+right: 20.45%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Rating/Star Fill */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Neutral/05/100% */
+background: #343839;
+border-radius: 0.5px;
+
+
+/* Star Icon */
+
+position: absolute;
+left: 40.91%;
+right: 40.91%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Rating/Star Fill */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Neutral/05/100% */
+background: #343839;
+border-radius: 0.5px;
+
+
+/* Star Icon */
+
+position: absolute;
+left: 20.45%;
+right: 61.36%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Rating/Star Fill */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Neutral/05/100% */
+background: #343839;
+border-radius: 0.5px;
+
+
+/* Star Icon */
+
+position: absolute;
+left: 0%;
+right: 81.82%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Rating/Star Fill */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Neutral/05/100% */
+background: #343839;
+border-radius: 0.5px;
+
+
+/* Loveseat Sofa */
+
+width: 262px;
+height: 26px;
+
+/* Body 2 (Semi) */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+/* Neutral/07/100% */
+color: #141718;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Price */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 49px;
+height: 22px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* $199.00 */
+
+width: 49px;
+height: 22px;
+
+/* Caption 1 (Semi) */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 22px;
+/* identical to box height, or 157% */
+
+/* Neutral/07/100% */
+color: #141718;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* $400.00 */
+
+display: none;
+width: 57px;
+height: 22px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+/* identical to box height, or 157% */
+text-decoration-line: line-through;
+
+/* Neutral/04/100% */
+color: #6C7275;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Product Card */
+
+width: 262px;
+height: 433px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* Elements/ Card */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 19.4%;
+
+
+
+/* Image Placeholder */
+
+position: absolute;
+width: 262px;
+height: 349px;
+left: 0px;
+top: 0px;
+
+
+
+/* Paste image */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: url(65284490946c3), #F3F5F7;
+background-blend-mode: multiply, normal;
+
+
+/* Button hover */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 24px;
+gap: 4px;
+
+position: absolute;
+visibility: hidden;
+left: 6.11%;
+right: 6.11%;
+top: 82.23%;
+bottom: 4.58%;
+
+/* Neutral/07/100% */
+background: #141718;
+border-radius: 8px;
+
+
+/* Get started */
+
+width: 82px;
+height: 28px;
+
+/* Button S */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 28px;
+/* identical to box height, or 175% */
+text-align: center;
+letter-spacing: -0.4px;
+
+/* Neutral/01/100% */
+color: #FEFEFE;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* add to ❤️ wishlist */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 6px;
+gap: 10px;
+
+position: absolute;
+visibility: hidden;
+width: 32px;
+height: 32px;
+right: 16px;
+top: 16px;
+
+background: #FFFFFF;
+border-radius: 32px;
+
+
+/* icons/Heart/Line */
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Shape */
+
+position: absolute;
+left: 4.17%;
+right: 4.17%;
+top: 12.5%;
+bottom: 13.37%;
+
+/* Neutral/04/100% */
+background: #6C7275;
+
+
+/* Badges */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 71px;
+height: 56px;
+left: 16px;
+top: 16px;
+
+
+
+/* Badge medium */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 4px 14px;
+gap: 8px;
+
+width: 67px;
+height: 24px;
+
+background: #FFFFFF;
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* New */
+
+width: 39px;
+height: 16px;
+
+/* Hairline 1 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 16px;
+/* identical to box height, or 100% */
+text-align: center;
+text-transform: uppercase;
+
+/* Neutral/07/100% */
+color: #141718;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Badge medium */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 4px 14px;
+gap: 8px;
+
+width: 71px;
+height: 24px;
+
+background: #38CB89;
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* New */
+
+width: 43px;
+height: 16px;
+
+/* Hairline 1 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 16px;
+/* identical to box height, or 100% */
+text-align: center;
+text-transform: uppercase;
+
+/* Neutral/01/100% */
+color: #FEFEFE;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Content */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+position: absolute;
+width: 262px;
+height: 72px;
+left: 0px;
+top: 361px;
+
+
+
+/* Text+Price */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+width: 262px;
+height: 72px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Rating/Rating Group */
+
+width: 88px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Star Icon */
+
+position: absolute;
+left: 81.82%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Rating/Star Fill */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Neutral/05/100% */
+background: #343839;
+border-radius: 0.5px;
+
+
+/* Star Icon */
+
+position: absolute;
+left: 61.36%;
+right: 20.45%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Rating/Star Fill */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Neutral/05/100% */
+background: #343839;
+border-radius: 0.5px;
+
+
+/* Star Icon */
+
+position: absolute;
+left: 40.91%;
+right: 40.91%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Rating/Star Fill */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Neutral/05/100% */
+background: #343839;
+border-radius: 0.5px;
+
+
+/* Star Icon */
+
+position: absolute;
+left: 20.45%;
+right: 61.36%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Rating/Star Fill */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Neutral/05/100% */
+background: #343839;
+border-radius: 0.5px;
+
+
+/* Star Icon */
+
+position: absolute;
+left: 0%;
+right: 81.82%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Rating/Star Fill */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Neutral/05/100% */
+background: #343839;
+border-radius: 0.5px;
+
+
+/* Loveseat Sofa */
+
+width: 262px;
+height: 26px;
+
+/* Body 2 (Semi) */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+/* Neutral/07/100% */
+color: #141718;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Price */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 58px;
+height: 22px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* $199.00 */
+
+width: 58px;
+height: 22px;
+
+/* Caption 1 (Semi) */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 22px;
+/* identical to box height, or 157% */
+
+/* Neutral/07/100% */
+color: #141718;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* $400.00 */
+
+display: none;
+width: 57px;
+height: 22px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+/* identical to box height, or 157% */
+text-decoration-line: line-through;
+
+/* Neutral/04/100% */
+color: #6C7275;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Elements/Card */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 262px;
+height: 433px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+flex-grow: 0;
+
+
+/* image */
+
+width: 262px;
+height: 349px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Image Placeholder */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+
+
+/* Paste image */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: url(65284490946c3), #F3F5F7;
+background-blend-mode: multiply, normal;
+
+
+/* Badges */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 67px;
+height: 24px;
+left: 16px;
+top: 16px;
+
+
+
+/* Badge */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 4px 14px;
+gap: 10px;
+
+width: 67px;
+height: 24px;
+
+/* White */
+background: #FFFFFF;
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Content */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 4px;
+
+width: 39px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Hello */
+
+width: 39px;
+height: 16px;
+
+/* Hairline 1 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 16px;
+/* identical to box height, or 100% */
+text-align: center;
+text-transform: uppercase;
+
+/* Neutral/07/100% */
+color: #141718;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Badge */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 4px 14px;
+gap: 10px;
+
+display: none;
+width: 71px;
+height: 24px;
+
+/* Green */
+background: #38CB89;
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Content */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 4px;
+
+width: 43px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Hello */
+
+width: 43px;
+height: 16px;
+
+/* Hairline 1 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 16px;
+/* identical to box height, or 100% */
+text-align: center;
+text-transform: uppercase;
+
+/* White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Button hover */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 9px 24px;
+gap: 4px;
+
+position: absolute;
+visibility: hidden;
+width: 230px;
+height: 46px;
+left: calc(50% - 230px/2);
+bottom: 16px;
+
+/* Neutral/07/100% */
+background: #141718;
+
+
+/* Get started */
+
+width: 82px;
+height: 28px;
+
+/* Button S */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 28px;
+/* identical to box height, or 175% */
+text-align: center;
+letter-spacing: -0.4px;
+
+/* Neutral/01/100% */
+color: #FEFEFE;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Content */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 262px;
+height: 72px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Content */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 262px;
+height: 72px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text+Price */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+width: 262px;
+height: 72px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Rating/Rating Group */
+
+width: 88px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Star Icon */
+
+position: absolute;
+left: 81.82%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Rating/Star Fill */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Neutral/05/100% */
+background: #343839;
+border-radius: 0.5px;
+
+
+/* Star Icon */
+
+position: absolute;
+left: 61.36%;
+right: 20.45%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Rating/Star Fill */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Neutral/05/100% */
+background: #343839;
+border-radius: 0.5px;
+
+
+/* Star Icon */
+
+position: absolute;
+left: 40.91%;
+right: 40.91%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Rating/Star Fill */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Neutral/05/100% */
+background: #343839;
+border-radius: 0.5px;
+
+
+/* Star Icon */
+
+position: absolute;
+left: 20.45%;
+right: 61.36%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Rating/Star Fill */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Neutral/05/100% */
+background: #343839;
+border-radius: 0.5px;
+
+
+/* Star Icon */
+
+position: absolute;
+left: 0%;
+right: 81.82%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Rating/Star Fill */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Neutral/05/100% */
+background: #343839;
+border-radius: 0.5px;
+
+
+/* Bamboo basket */
+
+width: 262px;
+height: 26px;
+
+/* Body 2 (Semi) */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+/* Neutral/07/100% */
+color: #141718;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Price */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 49px;
+height: 22px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* $24.99 */
+
+width: 49px;
+height: 22px;
+
+/* Caption 1 (Semi) */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 22px;
+/* identical to box height, or 157% */
+
+/* Neutral/07/100% */
+color: #141718;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* $400.00 */
+
+display: none;
+width: 57px;
+height: 22px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+/* identical to box height, or 157% */
+text-decoration-line: line-through;
+
+/* Neutral/04/100% */
+color: #6C7275;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* pagination */
+
+width: 1120px;
+height: 4px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Rectangle 774 */
+
+position: absolute;
+width: 1120px;
+height: 4px;
+left: 0px;
+top: 0px;
+
+/* Neutral/03/100% */
+background: #E8ECEF;
+border-radius: 80px;
+
+
+/* Rectangle 775 */
+
+position: absolute;
+width: 834px;
+height: 4px;
+left: 0px;
+top: 0px;
+
+background: #343839;
+border-radius: 80px;
+
+
+/* Values */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 48px 160px;
+gap: 24px;
+
+width: 1440px;
+height: 316px;
+
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+flex-grow: 0;
+
+
+/* card 01 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 48px 32px;
+gap: 16px;
+
+width: 262px;
+height: 220px;
+
+/* Neutral/02/100% */
+background: #F3F5F7;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* shipping and delivery/outline/fast delivery */
+
+width: 48px;
+height: 48px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 12.5%;
+bottom: 12.5%;
+
+/* Neutral/07/100% */
+border: 2.5px solid #141718;
+
+
+/* Vector 1980 */
+
+position: absolute;
+left: 33.33%;
+right: 58.33%;
+top: 33.33%;
+bottom: 66.67%;
+
+/* Neutral/07/100% */
+border: 2.5px solid #141718;
+
+
+/* Vector 1981 */
+
+position: absolute;
+left: 25%;
+right: 58.33%;
+top: 50%;
+bottom: 50%;
+
+/* Neutral/07/100% */
+border: 2.5px solid #141718;
+
+
+/* text */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 198px;
+height: 60px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Free Shipping */
+
+width: 138px;
+height: 28px;
+
+/* Headline 7 */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 28px;
+/* identical to box height, or 140% */
+
+/* Neutral/07/100% */
+color: #141718;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Order above $200 */
+
+width: 198px;
+height: 24px;
+
+/* Caption */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+
+/* Neutral/04/100% */
+color: #6C7275;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* card 2 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 48px 32px;
+gap: 16px;
+
+width: 262px;
+height: 220px;
+
+/* Neutral/02/100% */
+background: #F3F5F7;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* finance and payment/outline/money */
+
+width: 48px;
+height: 48px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle 856 */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 16.67%;
+bottom: 16.67%;
+
+/* Neutral/07/100% */
+border: 2.5px solid #141718;
+border-radius: 4px;
+
+
+/* Ellipse 730 */
+
+position: absolute;
+left: 41.67%;
+right: 41.67%;
+top: 58.33%;
+bottom: 25%;
+
+/* Neutral/07/100% */
+border: 2.5px solid #141718;
+transform: matrix(1, 0, 0, -1, 0, 0);
+
+
+/* Ellipse 732 */
+
+position: absolute;
+left: 70.83%;
+right: 20.83%;
+top: 54.17%;
+bottom: 37.5%;
+
+/* Neutral/07/100% */
+background: #141718;
+transform: matrix(1, 0, 0, -1, 0, 0);
+
+
+/* Ellipse 733 */
+
+position: absolute;
+left: 20.83%;
+right: 70.83%;
+top: 54.17%;
+bottom: 37.5%;
+
+/* Neutral/07/100% */
+background: #141718;
+transform: matrix(1, 0, 0, -1, 0, 0);
+
+
+/* text */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 198px;
+height: 60px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Money-back */
+
+width: 130px;
+height: 28px;
+
+/* Headline 7 */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 28px;
+/* identical to box height, or 140% */
+
+/* Neutral/07/100% */
+color: #141718;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* 30 days guarantee */
+
+width: 198px;
+height: 24px;
+
+/* Caption */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+
+/* Neutral/04/100% */
+color: #6C7275;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* card 4 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 48px 32px;
+gap: 16px;
+
+width: 262px;
+height: 220px;
+
+/* Neutral/02/100% */
+background: #F3F5F7;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+
+/* interface/outline/lock 01 */
+
+width: 48px;
+height: 48px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 16.67%;
+right: 16.67%;
+top: 8.33%;
+bottom: 8.33%;
+
+/* Neutral/07/100% */
+border: 2.5px solid #141718;
+
+
+/* text */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 198px;
+height: 60px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Secure Payments */
+
+width: 176px;
+height: 28px;
+
+/* Headline 7 */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 28px;
+/* identical to box height, or 140% */
+
+/* Neutral/07/100% */
+color: #141718;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Secured by Stripe */
+
+width: 198px;
+height: 24px;
+
+/* Caption */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+
+/* Neutral/04/100% */
+color: #6C7275;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* card 3 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 48px 32px;
+gap: 16px;
+
+width: 262px;
+height: 220px;
+
+/* Neutral/02/100% */
+background: #F3F5F7;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 1;
+
+
+/* communication/outline/call */
+
+width: 48px;
+height: 48px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle 77 */
+
+position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 12.5%;
+bottom: 12.5%;
+
+/* Neutral/07/100% */
+border: 2.5px solid #141718;
+
+
+/* text */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 198px;
+height: 60px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* 24/7 Support */
+
+width: 132px;
+height: 28px;
+
+/* Headline 7 */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 28px;
+/* identical to box height, or 140% */
+
+/* Neutral/07/100% */
+color: #141718;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Phone and Email support */
+
+width: 198px;
+height: 24px;
+
+/* Caption */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+
+/* Neutral/04/100% */
+color: #6C7275;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Banner */
+
+width: 1440px;
+height: 532px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 6;
+flex-grow: 0;
+
+
+/* Group 3 */
+
+position: absolute;
+width: 1440px;
+height: 532px;
+left: 0px;
+top: 0px;
+
+
+
+/* Image Placeholder */
+
+position: absolute;
+left: 0px;
+right: 720px;
+top: 0px;
+bottom: 0px;
+
+
+
+/* Paste image */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: url(spacejoy-umAXneH4GhA-unsplash);
+
+
+/* Content */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px 160px 0px 72px;
+gap: 24px;
+
+position: absolute;
+width: 720px;
+height: 532px;
+left: 720px;
+top: calc(50% - 532px/2);
+
+/* Neutral/02/100% */
+background: #F3F5F7;
+
+
+/* Title */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 452px;
+height: 200px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* SALE */
+
+width: 452px;
+height: 16px;
+
+/* Hairline 1 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 16px;
+/* identical to box height, or 100% */
+text-transform: uppercase;
+
+/* Blue */
+color: #377DFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Title */
+
+width: 452px;
+height: 88px;
+
+/* Headline 4 */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 44px;
+/* or 110% */
+letter-spacing: -0.4px;
+
+/* Neutral/07/100% */
+color: #141718;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Phosfluorescently en */
+
+width: 452px;
+height: 64px;
+
+/* Body 1 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 32px;
+/* or 160% */
+
+/* Neutral/07/100% */
+color: #141718;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Button */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 4px;
+
+width: 100px;
+height: 28px;
+
+/* Neutral/07/100% */
+border-bottom: 1px solid #141718;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Content */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 4px;
+
+width: 76px;
+height: 28px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Get started */
+
+width: 76px;
+height: 28px;
+
+/* Button S */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 28px;
+/* identical to box height, or 175% */
+letter-spacing: -0.4px;
+
+/* Neutral/07/100% */
+color: #141718;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icon/arrow-right */
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 20.83%;
+right: 20.83%;
+top: 50%;
+bottom: 50%;
+
+/* Neutral/07/100% */
+border: 1.25px solid #141718;
+
+
+/* Vector */
+
+position: absolute;
+left: 54.17%;
+right: 20.83%;
+top: 50%;
+bottom: 25%;
+
+/* Neutral/07/100% */
+border: 1.25px solid #141718;
+
+
+/* Vector */
+
+position: absolute;
+left: 54.17%;
+right: 20.83%;
+top: 25%;
+bottom: 50%;
+
+/* Neutral/07/100% */
+border: 1.25px solid #141718;
+
+
+/* Newsletter */
+
+width: 1440px;
+height: 360px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 7;
+flex-grow: 0;
+
+
+/* Group 2 */
+
+position: absolute;
+width: 1440px;
+height: 360px;
+left: 0px;
+top: 0px;
+
+
+
+/* Image Placeholder */
+
+position: absolute;
+width: 1440px;
+height: 360px;
+left: 0px;
+top: 0px;
+
+
+
+/* Paste image */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: url(6528420a4a039), url(chair652841244e395), #F2F4F6;
+background-blend-mode: multiply, multiply, normal;
+
+
+/* Content */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 32px;
+
+position: absolute;
+width: 540px;
+height: 166px;
+left: 450px;
+top: 101px;
+
+
+
+/* Header */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 540px;
+height: 82px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Create your messaing */
+
+width: 456px;
+height: 44px;
+
+/* Headline 4 */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 44px;
+/* identical to box height, or 110% */
+text-align: center;
+letter-spacing: -0.4px;
+
+/* Neutral/07/100% */
+color: #141718;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Sign up for deals, new products and promotions */
+
+width: 540px;
+height: 30px;
+
+/* Text/18px/Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+/* identical to box height, or 167% */
+text-align: center;
+
+/* Neutral/07/100% */
+color: #141718;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Form Input */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 488px;
+height: 52px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Input */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 488px;
+height: 52px;
+
+/* Neutral/04/50% */
+border-bottom: 1px solid rgba(108, 114, 117, 0.5);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Icon+Input */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 428px;
+height: 28px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Icon/email */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Union */
+
+position: absolute;
+width: 19.5px;
+height: 15.5px;
+left: 2.52px;
+top: 4.15px;
+
+/* Neutral/07/100% */
+background: #141718;
+
+
+/* Vector */
+
+position: absolute;
+left: 13.64%;
+right: 11.36%;
+top: 20.4%;
+bottom: 21.27%;
+
+/* Black/900 */
+border: 1.5px solid #121212;
+
+
+/* Vector */
+
+position: absolute;
+left: 13.64%;
+right: 11.36%;
+top: 28.73%;
+bottom: 46.27%;
+
+/* Black/900 */
+border: 1.5px solid #121212;
+
+
+/* Your email */
+
+width: 396px;
+height: 28px;
+
+/* Button S */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 28px;
+/* identical to box height, or 175% */
+letter-spacing: -0.4px;
+
+/* Neutral/04/100% */
+color: #6C7275;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* Button */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+width: 52px;
+height: 28px;
+
+/* Neutral/07/100% */
+border: 0px solid #141718;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Content */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 4px;
+
+width: 52px;
+height: 28px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icon/arrow-right */
+
+display: none;
+width: 18px;
+height: 18px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 20.83%;
+right: 20.83%;
+top: 50%;
+bottom: 50%;
+
+/* Black/900 */
+border: 1.125px solid #121212;
+
+
+/* Vector */
+
+position: absolute;
+left: 54.17%;
+right: 20.83%;
+top: 50%;
+bottom: 25%;
+
+/* Black/900 */
+border: 1.125px solid #121212;
+
+
+/* Vector */
+
+position: absolute;
+left: 54.17%;
+right: 20.83%;
+top: 25%;
+bottom: 50%;
+
+/* Black/900 */
+border: 1.125px solid #121212;
+
+
+/* Get started */
+
+width: 52px;
+height: 28px;
+
+/* Button S */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 28px;
+/* identical to box height, or 175% */
+letter-spacing: -0.4px;
+
+/* Neutral/04/100% */
+color: #6C7275;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Footer */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 80px 160px 32px;
+gap: 49px;
+
+width: 1440px;
+height: 249px;
+
+/* Neutral/07/100% */
+background: #141718;
+
+/* Inside auto layout */
+flex: none;
+order: 8;
+flex-grow: 0;
+
+
+/* footer content */
+
+width: 1120px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* logo and links */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+gap: 157px;
+
+position: absolute;
+width: 1120px;
+height: 24px;
+left: 0px;
+top: 0px;
+
+
+
+/* logo and slogan */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 32px;
+
+margin: 0 auto;
+width: 544px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Logo */
+
+width: 105px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* 3legant. */
+
+position: absolute;
+width: 105px;
+height: 24px;
+left: 0px;
+top: 0px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 24px;
+/* identical to box height, or 100% */
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Rectangle 319 */
+
+width: 1px;
+height: 24px;
+
+/* Neutral/04/100% */
+background: #6C7275;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Gift & Decoration Store */
+
+width: 350px;
+height: 22px;
+
+/* Caption 1 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+/* identical to box height, or 157% */
+
+/* Neutral/03/100% */
+color: #E8ECEF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* nav */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 40px;
+
+margin: 0 auto;
+width: 392px;
+height: 22px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Home */
+
+width: 40px;
+height: 22px;
+
+/* Caption 1 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+/* identical to box height, or 157% */
+
+/* Neutral/01/100% */
+color: #FEFEFE;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Shop */
+
+width: 35px;
+height: 22px;
+
+/* Caption 1 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+/* identical to box height, or 157% */
+
+/* Neutral/01/100% */
+color: #FEFEFE;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Product */
+
+width: 52px;
+height: 22px;
+
+/* Caption 1 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+/* identical to box height, or 157% */
+
+/* Neutral/01/100% */
+color: #FEFEFE;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Blog */
+
+width: 30px;
+height: 22px;
+
+/* Caption 1 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+/* identical to box height, or 157% */
+
+/* Neutral/01/100% */
+color: #FEFEFE;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Contact Us */
+
+width: 75px;
+height: 22px;
+
+/* Caption 1 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+/* identical to box height, or 157% */
+
+/* Neutral/01/100% */
+color: #FEFEFE;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* bottom bar */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-start;
+padding: 16px 0px;
+gap: 547px;
+
+width: 1118px;
+height: 56px;
+
+/* Neutral/04/100% */
+border-top: 0.5px solid #6C7275;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* copyright */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 28px;
+
+margin: 0 auto;
+width: 485px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Copyright © 2023 3legant. All rights reserved */
+
+width: 265px;
+height: 20px;
+
+/* Caption 2 */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 20px;
+/* identical to box height, or 167% */
+
+/* Neutral/03/100% */
+color: #E8ECEF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Privacy Policy */
+
+width: 85px;
+height: 20px;
+
+/* Caption 2 (Bold) */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 20px;
+/* identical to box height, or 167% */
+
+/* Neutral/01/100% */
+color: #FEFEFE;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Terms of Use */
+
+width: 79px;
+height: 20px;
+
+/* Caption 2 (Bold) */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 20px;
+/* identical to box height, or 167% */
+
+/* Neutral/01/100% */
+color: #FEFEFE;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* social icon */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+margin: 0 auto;
+width: 120px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* social/outline/instagram */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+/* Neutral/01/100% */
+border: 1.5px solid #FEFEFE;
+border-radius: 4px;
+
+
+/* Vector */
+
+position: absolute;
+left: 70.83%;
+right: 20.83%;
+top: 20.83%;
+bottom: 70.83%;
+
+/* Neutral/01/100% */
+background: #FEFEFE;
+
+
+/* Vector */
+
+position: absolute;
+left: 29.17%;
+right: 29.17%;
+top: 29.17%;
+bottom: 29.17%;
+
+/* Neutral/01/100% */
+border: 1.5px solid #FEFEFE;
+
+
+/* social/outline/facebook */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector 2998 */
+
+position: absolute;
+left: 25%;
+right: 25%;
+top: 12.5%;
+bottom: 12.5%;
+
+/* Neutral/01/100% */
+border: 1.5px solid #FEFEFE;
+
+
+/* social/outline/youtube */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Rectangle 1083 */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 12.5%;
+bottom: 12.5%;
+
+/* Neutral/01/100% */
+border: 1.5px solid #FEFEFE;
+border-radius: 4px;
+
+
+/* Vector 2900 */
+
+position: absolute;
+left: 37.5%;
+right: 29.17%;
+top: 33.33%;
+bottom: 33.33%;
+
+/* Neutral/01/100% */
+border: 1.5px solid #FEFEFE;
+border-radius: 1px;
